@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #101010;
+ 
+}
+ul.page{
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 10px 10px;
+    border-radius: 15px;
+    background-color: #2424245a;
+}
+ul.page>li{
+    margin: 5px;
+    padding: 15px 20px;
+    border-radius: 15px;
+    color: #ededed;
+ 
+}
+ul.page>li:hover{
+    background-color: crimson;
+}
